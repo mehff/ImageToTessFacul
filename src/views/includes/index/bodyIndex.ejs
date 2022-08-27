@@ -1,0 +1,17 @@
+<body>
+    <form  class="main" method="POST" action="/upload-multiple" enctype="multipart/form-data">
+        <div>
+            <h1>Imagem para Texto</h1>
+            <p>Selecione até 50 imagens para digitalizar, essa API aceita os formatos PNG, JPG, JPEG, BMP e PBM. Após fazer o upload, aguarde a digitalização, a página ficará 
+            carregando e ao finalizar a digitalização, um download será retornado com os arquivos digitalizados no formato .txt em um ZIP. 
+            </p>
+        </div>
+    </form>  
+    <form class="options" method="POST" action="/upload-multiple" enctype="multipart/form-data">
+    <div>     
+        <input id="input_imagens" type="file" accept=".png, .jpeg, .jpg, .bmp, .pbm" name="files" required multiple />
+        <input action="bruta" id="botao_geral" type="submit" value="Me dá meus dados!" />
+    </div>
+    </form>
+</body>
+</html>

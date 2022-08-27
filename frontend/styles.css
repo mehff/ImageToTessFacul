@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(102, 54, 141);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+  
+  .main {
+    max-width: 640px;
+    margin: 10px auto;
+    background: rgba(194, 194, 194, 0.644);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .section {
+    max-width: 640px;
+    margin: 10px auto;
+    background: rgba(194, 194, 194, 0.644);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .options {
+    max-width: 640px;
+    margin: 10px auto;
+    background: rgba(194, 194, 194, 0.644);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #input_imagens {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+  }
+  
+  #botao_geral {
+    border: none;
+    background: rgb(75, 44, 100);
+    color: rgb(194, 194, 194);
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  #botao_geral:hover {
+    background: rgb(102, 54, 141);
+  }
+
+  .botao_doc {
+    border: none;
+    background: rgb(75, 44, 100);
+    color: rgb(194, 194, 194);
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  .botao_doc:hover {
+    background: rgb(102, 54, 141);
+  }
